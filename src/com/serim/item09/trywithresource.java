@@ -11,8 +11,9 @@ public class trywithresource {
 					break;
 				}
 				char ch = (char) data;
-				System.out.println(ch);
+				System.out.print(ch);
 			}
+
 		} catch (Exception e) {
 			System.out.println(e);
 		}
