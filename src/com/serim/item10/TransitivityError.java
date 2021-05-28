@@ -22,6 +22,18 @@ class Point {
 		Point p = (Point) obj;
 		return p.x == x && p.y == y;
 	}
+
+	@Override
+	public int hashCode() {
+		// TODO Auto-generated method stub
+		return super.hashCode();
+	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
 }
 
 class ColorPoint extends Point {
